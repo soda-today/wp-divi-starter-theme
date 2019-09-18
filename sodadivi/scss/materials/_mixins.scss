@@ -1,0 +1,40 @@
+@mixin font-size($size: 'normal') {
+  @if $size == 'xs' {
+    font-size: $font-size-xs;
+    line-height: $line-height-xs;
+  } @else if $size == 'sm' {
+    font-size: $font-size-sm;
+    line-height: $line-height-sm;
+  } @else if $size == 'lg' {
+    font-size: $font-size-lg;
+    line-height: $line-height-lg;
+  } @else if $size == 'ml' {
+    font-size: $font-size-ml;
+    line-height: $line-height-ml;
+  } @else if $size == 'xl' {
+    font-size: $font-size-xl;
+    line-height: $line-height-xl;
+  } @else if $size == 'xxl' {
+    font-size: $font-size-xxl;
+    line-height: $line-height-xxl;
+  } @else {
+    font-size: $font-size;
+    line-height: $line-height;
+  }
+}
+
+@mixin content-spacing() {
+  padding: 0px $content-spacing-sm;
+
+  @media( min-width: $size-xs ) {
+    padding: 0px $content-spacing;
+  }
+}
+
+@mixin remove-content-spacing() {
+  margin: 0px #{-$content-spacing-sm};
+
+  @media( min-width: $size-xs ) {
+    margin: 0px #{-$content-spacing};
+  }
+}

@@ -1,0 +1,17 @@
+$site-branding-top: 1.4rem;
+
+.site-branding-container {
+  position: absolute;
+  top: 0px;
+  padding-top: $site-branding-top;
+  padding-left: $content-spacing-sm;
+  z-index: $branding-zindex;
+
+  @media( min-width: $size-md ) {
+    padding-left: $content-spacing;
+  }
+
+  .admin-bar & {
+    top: #{$admin-bar-height};
+  }
+}

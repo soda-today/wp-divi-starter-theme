@@ -1,0 +1,16 @@
+.site-logo {
+  a {
+    height: 30px;
+    display: block;
+
+    @media( min-width: $size-xl ) {
+      margin-left: $content-spacing;
+    }
+
+    img {
+      display: block;
+      height: 100%;
+      width: auto;
+    }
+  }
+}

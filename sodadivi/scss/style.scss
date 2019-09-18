@@ -1,0 +1,39 @@
+@import "materials/variables";
+@import "materials/mixins";
+@import "materials/typography";
+@import "materials/layout";
+
+
+// body
+body {
+  font-family: $base-font-family;
+  font-weight: 400;
+  font-style: normal;
+  @include font-size();
+  margin: 0px;
+}
+
+// elements outside page
+
+// components outside page
+
+// load spectre. could be splited into different files
+@import "node_modules/spectre.css/src/spectre";
+
+
+.et-db #et-boc .et_pb_module,
+#page {
+  @import "node_modules/spectre.css/src/spectre";
+  @import "materials/typography";
+
+  // materials
+  @import "materials/spacing";
+
+  // elements
+  @import "elements/site-logo";
+  @import "elements/skip-link";
+
+  // components
+  @import "components/site-branding";
+  @import "components/site-footer";
+}

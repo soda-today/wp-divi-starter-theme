@@ -1,0 +1,39 @@
+{
+  "name": "sodadivi",
+  "version": "1.0.0",
+  "description": "A Wordpress Theme Boilerplate for a theme using the Divi Editor.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build js/main.js scss/style.scss -d ./dist --public-url ../ --detailed-report --no-source-maps",
+    "watch": "parcel watch js/main.js scss/style.scss -d ./dist --public-url ../"
+  },
+  "keywords": [
+    "divi"
+  ],
+  "author": "Soda Studios <hello@soda.today>",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.23.0-module.beta.1",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "blazy": "^1.8.2",
+    "gsap": "^2.1.3",
+    "spectre.css": "^0.5.8",
+    "stickybits": "^3.6.7"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  }
+}
