@@ -7,9 +7,9 @@ $settings = array(
 
 // load all post types classes
 foreach ( $settings as $setting ) {
-  include_once  get_stylesheet_directory() .'/inc/settings/class-sodadivi-' . $setting . '.php';
+  include_once  get_stylesheet_directory() .'/inc/settings/class-sodadivishort-' . $setting . '.php';
 
-  $class_name = 'Sodadivi_' . underscoreToCamelCase($setting);
+  $class_name = 'SODADIVISHORT_' . underscoreToCamelCase($setting);
   $setting_object = new $class_name();
   $setting_object->load();
 }

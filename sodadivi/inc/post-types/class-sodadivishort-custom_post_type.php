@@ -1,7 +1,7 @@
 <?php
 
 
-class Sodadivi_CustomPostType {
+class SODADIVISHORT_CustomPostType {
 
   /**
    * Loads post type related actions and filters

@@ -4,7 +4,7 @@
  *
  * @since 1.0
  */
-class Sodadivi_Customize {
+class SODADIVISHORT_Customize {
 
    public function load() {
 

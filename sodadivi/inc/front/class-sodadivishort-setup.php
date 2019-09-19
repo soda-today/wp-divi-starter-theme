@@ -1,7 +1,7 @@
 <?php
 
 
-class Sodadivi_Setup {
+class SODADIVISHORT_Setup {
   /**
    * Loads post type related actions and filters
    *

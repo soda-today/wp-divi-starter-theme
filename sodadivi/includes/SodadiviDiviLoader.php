@@ -1,6 +1,6 @@
 <?php
 
-class Sodadivi_DiviLoader extends DiviExtension {
+class SODADIVISHORT_DiviLoader extends DiviExtension {
 
 	/**
 	 * The gettext domain for the extension's translations.
@@ -9,7 +9,7 @@ class Sodadivi_DiviLoader extends DiviExtension {
 	 *
 	 * @var string
 	 */
-	public $gettext_domain = 'sodadivi';
+	public $gettext_domain = 'sodadividomain';
 
 	/**
 	 * The extension's WP Plugin name.
@@ -18,7 +18,7 @@ class Sodadivi_DiviLoader extends DiviExtension {
 	 *
 	 * @var string
 	 */
-	public $name = 'divi-sodadivi';
+	public $name = 'divi-sodadividomain';
 
 	/**
 	 * The extension's version
@@ -35,7 +35,7 @@ class Sodadivi_DiviLoader extends DiviExtension {
 	 * @param string $name
 	 * @param array  $args
 	 */
-	public function __construct( $name = 'divi-sodadivi', $args = array() ) {
+	public function __construct( $name = 'divi-sodadividomain', $args = array() ) {
 		$this->plugin_dir     = plugin_dir_path( __FILE__ );
 		$this->plugin_dir_url = get_template_directory_uri() . '/';
 
@@ -43,4 +43,4 @@ class Sodadivi_DiviLoader extends DiviExtension {
 	}
 }
 
-new Sodadivi_DiviLoader;
+new SODADIVISHORT_DiviLoader;

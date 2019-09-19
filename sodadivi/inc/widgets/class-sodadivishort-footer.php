@@ -4,7 +4,7 @@
  * A Class generating SODADIVI_NB_FOOTER_AREAS footer areas
  */
 
-class Sodadivi_Footer {
+class SODADIVISHORT_Footer {
   public function load() {
     $sidebar_attributes = array(
         'name'          => __( 'Footer Area', 'sodadivi' ),
