@@ -1,5 +1,5 @@
 # WP Divi Starter Theme
-A starter theme to build a theme using the [Divi page builder](https://www.elegantthemes.com/gallery/divi/) editor from [Elegant Themes](https://www.elegantthemes.com)
+A starter theme to build a theme using the [Divi page builder](https://www.elegantthemes.com/gallery/divi/) editor from [Elegant Themes](https://www.elegantthemes.com).
 
 ## Generate you own theme
 To get started using this theme you can use the starter theme generator created for that purpose:
