@@ -18,7 +18,7 @@ class SODADIVISHORT_Customize {
       add_action( 'customize_preview_init' , array( $this , 'live_preview' ) );
 
       // Listen to Updated to update divi option
-      add_action('update_option_theme_mods_sodadivi', array( $this, 'on_option_updated'), 10, 3 );
+      add_action('update_option_theme_mods_sodadivishort', array( $this, 'on_option_updated'), 10, 3 );
    }
 
    /**

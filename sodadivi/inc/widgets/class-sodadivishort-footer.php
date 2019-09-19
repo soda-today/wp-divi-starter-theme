@@ -1,7 +1,7 @@
 <?php
 
 /**
- * A Class generating SODADIVI_NB_FOOTER_AREAS footer areas
+ * A Class generating SODADIVISHORT_NB_FOOTER_AREAS footer areas
  */
 
 class SODADIVISHORT_Footer {
@@ -16,7 +16,7 @@ class SODADIVISHORT_Footer {
         'after_title' => '</h2>',
     );
 
-    foreach ( array_fill(0, SODADIVI_NB_FOOTER_AREAS, null) as $i ) {
+    foreach ( array_fill(0, SODADIVISHORT_NB_FOOTER_AREAS, null) as $i ) {
       $sidebar_attributes['id'] = "footer-$i";
       $sidebar_attributes['name'] = __( 'Footer Area', 'sodadividomain' ) . " $i";
       register_sidebar( $sidebar_attributes );
