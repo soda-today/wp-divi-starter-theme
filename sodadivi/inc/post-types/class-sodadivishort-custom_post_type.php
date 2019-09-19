@@ -36,8 +36,8 @@ class SODADIVISHORT_CustomPostType {
       'event',
       [
         'labels'        => [
-          'name'          => __('Custom Elements', 'sodadivi'),
-          'singular_name' => __('Custom Element', 'sodadivi'),
+          'name'          => __('Custom Elements', 'sodadividomain'),
+          'singular_name' => __('Custom Element', 'sodadividomain'),
         ],
         'menu_position' => 19,
         'show_in_rest'  => true,
@@ -61,9 +61,9 @@ class SODADIVISHORT_CustomPostType {
   public function filter_admin_columns( $columns ) {
     return array(
       'cb'    => $columns['cb'],
-      'title'  => __('Title', 'sodadivi'),
-      'event_date'  => __('Date', 'sodadivi'),
-      'image' => __('Photo', 'sodadivi'),
+      'title'  => __('Title', 'sodadividomain'),
+      'event_date'  => __('Date', 'sodadividomain'),
+      'image' => __('Photo', 'sodadividomain'),
     );
   }
 

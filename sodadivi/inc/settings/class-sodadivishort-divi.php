@@ -12,6 +12,6 @@ class SODADIVISHORT_Divi {
   }
 
   public function initialize_extension() {
-    require_once get_stylesheet_directory() . '/includes/SodadiviDiviLoader.php';
+    require_once get_stylesheet_directory() . '/includes/DiviLoader.php';
   }
 }

@@ -16,7 +16,7 @@ class SODADIVISHORT_Setup {
 
   public function setup_theme() {
     // Make theme available for translation
-    load_theme_textdomain( 'sodadivi', get_template_directory() . '/languages' );
+    load_theme_textdomain( 'sodadividomain', get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
     add_theme_support( 'automatic-feed-links' );
@@ -40,9 +40,9 @@ class SODADIVISHORT_Setup {
 // This theme uses wp_nav_menu() in two locations.
 		register_nav_menus(
 			array(
-				'menu-1' => __( 'Primary', 'sodadivi' ),
-				'footer' => __( 'Footer Menu', 'sodadivi' ),
-				'social' => __( 'Social Links Menu', 'sodadivi' ),
+				'menu-1' => __( 'Primary', 'sodadividomain' ),
+				'footer' => __( 'Footer Menu', 'sodadividomain' ),
+				'social' => __( 'Social Links Menu', 'sodadividomain' ),
 			)
 		);
 
@@ -96,26 +96,26 @@ class SODADIVISHORT_Setup {
 			'editor-font-sizes',
 			array(
 				array(
-					'name'      => __( 'Small', 'sodadivi' ),
-					'shortName' => __( 'S', 'sodadivi' ),
+					'name'      => __( 'Small', 'sodadividomain' ),
+					'shortName' => __( 'S', 'sodadividomain' ),
 					'size'      => 19.5,
 					'slug'      => 'small',
 				),
 				array(
-					'name'      => __( 'Normal', 'sodadivi' ),
-					'shortName' => __( 'M', 'sodadivi' ),
+					'name'      => __( 'Normal', 'sodadividomain' ),
+					'shortName' => __( 'M', 'sodadividomain' ),
 					'size'      => 22,
 					'slug'      => 'normal',
 				),
 				array(
-					'name'      => __( 'Large', 'sodadivi' ),
-					'shortName' => __( 'L', 'sodadivi' ),
+					'name'      => __( 'Large', 'sodadividomain' ),
+					'shortName' => __( 'L', 'sodadividomain' ),
 					'size'      => 36.5,
 					'slug'      => 'large',
 				),
 				array(
-					'name'      => __( 'Huge', 'sodadivi' ),
-					'shortName' => __( 'XL', 'sodadivi' ),
+					'name'      => __( 'Huge', 'sodadividomain' ),
+					'shortName' => __( 'XL', 'sodadividomain' ),
 					'size'      => 49.5,
 					'slug'      => 'huge',
 				),

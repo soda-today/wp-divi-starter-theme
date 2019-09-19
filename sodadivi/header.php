@@ -29,7 +29,7 @@
 <body id="body" <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'sodadivi' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'sodadividomain' ); ?></a>
 
 		<header id="masthead" class="site-header">
 

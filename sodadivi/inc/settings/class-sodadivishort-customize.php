@@ -36,10 +36,10 @@ class SODADIVISHORT_Customize {
       //1. Define a new section (if desired) to the Theme Customizer
       $wp_customize->add_section( 'sodadivi_options',
          array(
-            'title'       => __( 'Theme Options', 'sodadivi' ), //Visible title of section
+            'title'       => __( 'Theme Options', 'sodadividomain' ), //Visible title of section
             'priority'    => 35, //Determines what order this appears in
             'capability'  => 'edit_theme_options', //Capability needed to tweak
-            'description' => __('Allows you to customize some example settings for MyTheme.', 'sodadivi'), //Descriptive tooltip
+            'description' => __('Allows you to customize some example settings for MyTheme.', 'sodadividomain'), //Descriptive tooltip
          )
       );
 
@@ -58,7 +58,7 @@ class SODADIVISHORT_Customize {
          $wp_customize, //Pass the $wp_customize object (required)
          'sodadivi_content_width', //Set a unique ID for the control
          array(
-            'label'      => __( 'Content Width (px)', 'sodadivi' ),
+            'label'      => __( 'Content Width (px)', 'sodadividomain' ),
             'settings'   => 'content_width',
             'priority'   => 10,
             'type'       => 'number',
