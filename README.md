@@ -8,6 +8,9 @@ To get started using this theme you can use the starter theme generator created 
 ## Strongly Opinionated
 This starter is minimalistic but strongly opinionated. It uses [Parcel.js](https://parceljs.org/), `SCSS` and [Spectre.css](https://picturepan2.github.io/spectre/).
 
+## Divi Modules
+We decided to build Divi modules without using React as it only enables better reactivity in build mode and enhances the complexity of the project.
+
 ## Work in Progress
 We are actually not happy with the state of the theme but we just wanted to start.
 
