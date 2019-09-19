@@ -21,7 +21,6 @@
     "blazy": "^1.8.2",
     "gsap": "^2.1.3",
     "spectre.css": "^0.5.8",
-    "stickybits": "^3.6.7"
   },
   "browserslist": {
     "development": [
