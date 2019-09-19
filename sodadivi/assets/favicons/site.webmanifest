@@ -1,6 +1,6 @@
 {
-    "name": "Soda Divi",
-    "short_name": "Soda Divi",
+    "name": "Sodadivi",
+    "short_name": "SODADIVISHORT",
     "icons": [
         {
             "src": "/PATH/android-chrome-192x192.png",
