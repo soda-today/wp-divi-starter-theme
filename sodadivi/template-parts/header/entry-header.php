@@ -25,7 +25,7 @@
 				),
 				get_the_title()
 			),
-			'<span class="edit-link">' . sodadivi_get_icon_svg( 'edit', 16 ),
+			'<span class="edit-link">' . sodadivishort_get_icon_svg( 'edit', 16 ),
 			'</span>'
 		);
 	?>

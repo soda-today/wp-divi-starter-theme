@@ -1,7 +1,6 @@
 <?php
 
-define('SODADIVI_NB_FOOTER_AREAS', 4);
-
+define('SODADIVISHORT_NB_FOOTER_AREAS', 4);
 
 include_once  get_stylesheet_directory() . '/inc/helpers/load.php';
 include_once  get_stylesheet_directory() . '/inc/front/load.php';

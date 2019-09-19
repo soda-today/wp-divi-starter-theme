@@ -34,7 +34,7 @@ class SODADIVISHORT_Customize {
     */
    public static function register ( $wp_customize ) {
       //1. Define a new section (if desired) to the Theme Customizer
-      $wp_customize->add_section( 'sodadivi_options',
+      $wp_customize->add_section( 'sodadivishort_options',
          array(
             'title'       => __( 'Theme Options', 'sodadividomain' ), //Visible title of section
             'priority'    => 35, //Determines what order this appears in
@@ -56,7 +56,7 @@ class SODADIVISHORT_Customize {
       //3. Finally, we define the control itself (which links a setting to a section and renders the HTML controls)...
       $wp_customize->add_control( new WP_Customize_Color_Control( //Instantiate the color control class
          $wp_customize, //Pass the $wp_customize object (required)
-         'sodadivi_content_width', //Set a unique ID for the control
+         'sodadivishort_content_width', //Set a unique ID for the control
          array(
             'label'      => __( 'Content Width (px)', 'sodadividomain' ),
             'settings'   => 'content_width',
@@ -106,7 +106,7 @@ class SODADIVISHORT_Customize {
     */
    public static function live_preview() {
       // wp_enqueue_script(
-      //      'sodadivi-themecustomizer', // Give the script a unique ID
+      //      'sodadivishort-themecustomizer', // Give the script a unique ID
       //      get_template_directory_uri() . '/assets/js/theme-customizer.js', // Define the path to the JS file
       //      array(  'jquery', 'customize-preview' ), // Define dependencies
       //      '', // Define a version (optional)
