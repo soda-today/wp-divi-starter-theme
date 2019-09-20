@@ -8,7 +8,7 @@
 <div class="container">
 	<div class="columns">
 
-		<?php foreach ( array_fill(0, SODADIVISHORT_NB_FOOTER_AREAS, null) as $i ): ?>
+		<?php foreach ( array_fill(0, SODADIVISHORT_NB_FOOTER_AREAS, null) as $i => $v ): ?>
 			<?php if ( is_active_sidebar( "footer-$i" ) ) : ?>
 				<div class="column col-xs-12 col-sm-6 col-3">
 					<?php if ( is_active_sidebar( "footer-$i" ) ): ?>

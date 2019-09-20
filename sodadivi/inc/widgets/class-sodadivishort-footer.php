@@ -18,7 +18,7 @@ class SODADIVISHORT_Footer {
 
     foreach ( array_fill(0, SODADIVISHORT_NB_FOOTER_AREAS, null) as $i ) {
       $sidebar_attributes['id'] = "footer-$i";
-      $sidebar_attributes['name'] = __( 'Footer Area', 'sodadividomain' ) . " $i";
+      $sidebar_attributes['name'] = __( 'Footer Area', 'sodadividomain' )  . " " . ( $i + 1 );
       register_sidebar( $sidebar_attributes );
     }
   }
