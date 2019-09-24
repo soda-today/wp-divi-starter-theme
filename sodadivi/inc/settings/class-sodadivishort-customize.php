@@ -62,7 +62,7 @@ class SODADIVISHORT_Customize {
             'settings'   => 'content_width',
             'priority'   => 10,
             'type'       => 'number',
-            'section'    => 'gm_options',
+            'section'    => 'sodadivishort_options',
          )
       ) );
 

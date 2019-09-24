@@ -3,6 +3,7 @@
 $settings = array(
   'customize',
   'divi',
+  'gutenberg',
 );
 
 // load all post types classes

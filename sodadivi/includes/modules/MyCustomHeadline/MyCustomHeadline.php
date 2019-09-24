@@ -2,7 +2,7 @@
 
 class SODADIVISHORT_MyCustomHeadline extends ET_Builder_Module {
 
-	public $slug       = 'digm_custom_headline';
+	public $slug       = 'disodadivishort_custom_headline';
 	public $vb_support = 'partial';
 
 	protected $module_credits = array(

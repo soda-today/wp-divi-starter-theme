@@ -6,7 +6,7 @@
 
 class SODADIVISHORT_Divi {
   public function load() {
-    if ( ! function_exists( 'digm_initialize_extension' ) ) {
+    if ( ! function_exists( 'disodadivishort_initialize_extension' ) ) {
       add_action( 'divi_extensions_init', array( $this, 'initialize_extension' ) );
     }
   }
