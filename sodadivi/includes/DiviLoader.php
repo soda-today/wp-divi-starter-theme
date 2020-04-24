@@ -46,8 +46,7 @@ class SODADIVISHORT_DiviLoader extends DiviExtension {
 	/**
 	 * Overwrite the function so no additional scripts are being loaded
 	 */
-	public function wp_hook_enqueue_scripts() {
-	}
+	public function wp_hook_enqueue_scripts() {}
 }
 
 new SODADIVISHORT_DiviLoader;

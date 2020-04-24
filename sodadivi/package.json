@@ -14,13 +14,13 @@
   "license": "ISC",
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "sass": "^1.23.0-module.beta.1",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.14.0",
+    "sass": "^1.26.5"
   },
   "dependencies": {
     "blazy": "^1.8.2",
     "gsap": "^2.1.3",
-    "spectre.css": "^0.5.8",
+    "spectre.css": "^0.5.8"
   },
   "browserslist": {
     "development": [
