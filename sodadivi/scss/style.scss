@@ -1,5 +1,6 @@
 @import "materials/variables";
 @import "materials/mixins";
+@import "materials/spectre";
 @import "materials/typography";
 @import "materials/layout";
 
@@ -17,13 +18,10 @@ body {
 
 // components outside page
 
-// load spectre. could be splited into different files
-@import "node_modules/spectre.css/src/spectre";
-
 
 .et-db #et-boc .et_pb_section,
 #page {
-  @import "node_modules/spectre.css/src/spectre";
+  @import "materials/spectre";
   @import "materials/typography";
 
   // materials

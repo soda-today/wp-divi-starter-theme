@@ -1,0 +1,15 @@
+@import "materials/variables";
+@import "node_modules/spectre.css/src/variables";
+@import "node_modules/spectre.css/src/mixins";
+@import "materials/mixins";
+
+@import "node_modules/spectre.css/src/utilities";
+
+
+#adminmenu li.wp-menu-separator {
+  // Für Aaron
+  height: 1px;
+  margin: 12px 0px;
+  background: rgb(119,119,119);
+  background: linear-gradient(90deg, rgba(255, 255, 255,0.2) 0%, rgba(255, 255, 255,0) 40%);
+}

@@ -1,0 +1,13 @@
+@import "materials/variables";
+@import "node_modules/spectre.css/src/variables";
+@import "node_modules/spectre.css/src/mixins";
+@import "materials/mixins";
+
+@import "materials/spectre";
+@import "materials/typography";
+
+
+body.wp-autoresize {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}

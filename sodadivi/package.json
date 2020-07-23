@@ -4,8 +4,8 @@
   "description": "A Wordpress Theme Boilerplate for a theme using the Divi Editor.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build js/main.js scss/style.scss -d ./dist --public-url ../ --detailed-report --no-source-maps",
-    "watch": "parcel watch js/main.js scss/style.scss -d ./dist --public-url ../"
+    "build": "parcel build js/main.js js/admin.js js/editor.js -d ./dist --public-url ./ --detailed-report --no-source-maps",
+    "watch": "parcel watch js/main.js js/admin.js js/editor.js -d ./dist --public-url ./"
   },
   "keywords": [
     "divi"
